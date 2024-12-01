@@ -12,7 +12,7 @@ The example code `samplecode_llama3.py` is designed to generate data for the `sc
 2. Write a list of keywords for the following query: {query}
 3. Answer the following query:\n{query}\nGive the rationale before answering
 ```
-This script utilizes the `Meta-Llama-3-8B-Instruct` model.    
+This script uses the `Meta-Llama-3-8B-Instruct` model.    
 Please ensure you have your personal `access_token` from Hugging Face to execute the code.  
   
 Additionally, the code includes an evaluation part to assess the performance of different strategies in terms of MAP and RECALL@1000.  

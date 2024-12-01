@@ -1,6 +1,6 @@
 # Comparatively Assessing Large Language Models for Query Expansion in Information Retrieval via Zero-Shot and Chain-of-Thought Prompting
 
-This repository contains the data and a sample code implementation for the paper titled "Comparatively Assessing Large Language Models for Query Expansion in Information Retrieval via Zero-Shot and Chain-of-Thought Prompting".
+This repository contains the data and a sample code implementation for the paper titled *"Comparatively Assessing Large Language Models for Query Expansion in Information Retrieval via Zero-Shot and Chain-of-Thought Prompting"*.
 
 Paper at https://ceur-ws.org/Vol-3802/paper22.pdf
 
@@ -12,7 +12,8 @@ The example code `samplecode_llama3.py` is designed to generate data for the `sc
 2. Write a list of keywords for the following query: {query}
 3. Answer the following query:\n{query}\nGive the rationale before answering
 ```
-This script utilizes the `Meta-Llama-3-8B-Instruct` model. Please ensure you have your personal `access_token` from Hugging Face to execute the code.  
+This script utilizes the `Meta-Llama-3-8B-Instruct` model.    
+Please ensure you have your personal `access_token` from Hugging Face to execute the code.  
   
 Additionally, the code includes an evaluation part to assess the performance of different strategies in terms of MAP and RECALL@1000.  
 
